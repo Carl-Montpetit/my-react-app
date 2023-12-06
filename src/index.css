@@ -14,9 +14,20 @@ body {
   background-color: lightgrey;
 }
 
-.card .card-img {
+.card .card-profile-image {
   max-width: 60%;
   height: auto;
   border-radius: 100%;
   margin-bottom: 10px;
+}
+
+.card .card-profile-name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 10%);
+}
+
+.card .card-profile-description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 30%);
 }
