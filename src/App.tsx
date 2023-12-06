@@ -1,3 +1,15 @@
-function App() {}
+import Header from "./Header";
+import Card from "./Card";
+import Footer from "./Footer";
 
-export default App
+function App() {
+  return (
+    <>
+      <Header />
+      <Card />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
